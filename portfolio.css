@@ -1,0 +1,270 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Portfolio-Container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.navlist{
+    display: flex;
+    gap: 3.5rem;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+    background-color: #262525;
+}
+.navlist li{
+    list-style: none;
+}
+.navlist li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #FFF;
+    position: relative;
+}
+.Left-Conatiner, .Right-Conatiner{
+    height: 420vh;
+    display: flex;
+    align-items: center;
+}
+.Left-Conatiner{
+    background: #262525;
+    width: 100%;
+    padding-left: 3rem;
+}
+.icons .fa-brands{
+    color: #FFF;
+    font-size: 1.7rem;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 2rem;
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
+.content{
+    margin-left: 3rem;
+    position: absolute;
+    top: 40%;
+}
+.content .intro{
+    font-size: 2rem;
+    color: #fff;
+}
+.content .intro span{
+    color: #5DB9EE;
+}
+.content h1{
+    font-size: 2.5rem;
+    color: #fff;
+    max-width: 45rem;
+    margin: 1.1rem 0 3rem;
+    line-height: 3rem;
+}
+.icons .fa-brands:hover{
+    cursor: pointer;
+    background: linear-gradient(#FFF, #3877FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+
+}
+.circle:nth-child(1){
+    background: linear-gradient(90deg, transparent 50%, #262525 50%);
+    width: 38rem;
+}
+.circle:nth-child(2){
+    width: 30rem;
+    background-image: url(image/MyPhoto.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: .1rem solid white;
+    box-shadow: 0 0 1rem #fff,
+    inset 0 0 1rem #FFF,
+    0 0 1rem #3877FF,
+    inset 0 0 1rem #3877FF;
+}
+.navlist li a::after, .navlist .active::after{
+    content: "";
+    position: absolute;
+    background: #FFF;
+    width: 100%;
+    height: .1rem;
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navlist li a:hover::after, .navlist .active::after{
+    transform: scaleX(1);
+}
+.About{
+    width: 50%;
+    padding: 100px 0px;
+    margin-top: 5%;
+}
+.About-Text{
+    font-size: 170%;
+    color: #FFF;
+    position: absolute;
+    right: 50%;
+    top: 800px;
+    margin-left: 50px;
+}
+.About-Text span{
+    color: #5DB9EE;
+}
+.About img{
+    width: 400px;
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    height: 500px;
+    margin-left: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: .1rem solid white;
+    box-shadow: 0 0 1rem #fff,
+    inset 0 0 1rem #FFF,
+    0 0 1rem #3877FF,
+    inset 0 0 1rem #3877FF;
+}
+.skills{
+    width: 50%;
+    padding: 100px 0px;
+    margin-top: 5%;
+    font-size: 170%;
+    color: #FFF;
+    position: absolute;
+    top: 1300px;
+    left: 45%;
+}
+.skills span{
+    color: #5DB9EE;
+}
+.top-symbol {
+    border: 1px solid #FFF;
+    border-collapse: collapse;
+    height: 110px;
+    position: absolute;
+    top: 210px;
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-around; 
+    gap: 1rem; 
+    font-size: 5rem;
+    margin-left: -5%;
+}
+.top-symbol .c{
+    position: absolute;
+    top: 75px;
+    font-size: 30px;
+    margin-left: -70%;
+}
+.top-symbol .html{
+    position: absolute;
+    top: 75px;
+    font-size: 30px;
+    margin-left: 1%;
+}
+.top-symbol .css{
+    position: absolute;
+    top: 75px;
+    font-size: 30px;
+    margin-left: 72%;
+}
+.bottom-symbol {
+    border: 1px solid #FFF;
+    border-collapse: collapse;
+    height: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    top: 350px;
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-around; 
+    gap: 4rem; 
+    font-size: 5rem;
+    margin-left: -18%;
+}
+.bottom-symbol .python{
+    position: absolute;
+    top: 80px;
+    font-size: 30px;
+    margin-left: -70%;
+}
+.bottom-symbol .research{
+    position: absolute;
+    top: 80px;
+    font-size: 30px;
+    margin-left: 1%;
+}
+.bottom-symbol .coding{
+    position: absolute;
+    top: 80px;
+    font-size: 30px;
+    margin-left: 65%;
+}
+.projects{
+    font-size: 170%;
+    color: #FFF;
+    position: absolute;
+    right: 50%;
+    top: 2100px;
+    margin-left: 50px;
+}
+.projects span{
+    color: #5DB9EE;
+}
+.Tic img{
+    width: 400px;
+    position: absolute;
+    top: 270%;
+    left: 50%;
+    height: 500px;
+    margin-left: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: .1rem solid white;
+    box-shadow: 0 0 1rem #fff,
+    inset 0 0 1rem #FFF,
+    0 0 1rem #3877FF,
+    inset 0 0 1rem #3877FF;
+}
+.projects a{
+    color: #3877FF;
+}
+.contact{
+    font-size: 170%;
+    color: #FFF;
+    position: absolute;
+    left: 30%;
+    top: 2750px;
+    margin-left: 50px;
+}
+.contact a{
+    color: #FFF;
+}
+.contact span{
+    color: #5DB9EE;
+}
