@@ -30,12 +30,10 @@
     color: #FFF;
     position: relative;
 }
-.Left-Conatiner, .Right-Conatiner{
-    height: 420vh;
+.Left-Conatiner{
+    height: 510vh;
     display: flex;
     align-items: center;
-}
-.Left-Conatiner{
     background: #262525;
     width: 100%;
     padding-left: 3rem;
@@ -93,7 +91,8 @@
     width: 38rem;
 }
 .circle:nth-child(2){
-    width: 30rem;
+    width: 25rem;
+    left: 78%;
     background-image: url(image/MyPhoto.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -127,7 +126,7 @@
     color: #FFF;
     position: absolute;
     right: 50%;
-    top: 800px;
+    top: 670px;
     margin-left: 50px;
 }
 .About-Text span{
@@ -136,7 +135,7 @@
 .About img{
     width: 400px;
     position: absolute;
-    top: 105%;
+    top: 110%;
     left: 50%;
     height: 500px;
     margin-left: 200px;
@@ -239,7 +238,7 @@
 .Tic img{
     width: 400px;
     position: absolute;
-    top: 270%;
+    top: 350%;
     left: 50%;
     height: 500px;
     margin-left: 200px;
