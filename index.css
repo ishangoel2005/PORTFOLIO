@@ -198,14 +198,14 @@
     font-family: myfont5;
 }
 .skills span {
-    color: #5DB9EE;
+    color: #3877FF;
 }
 .box1 {
     width: 500px;
     height: 270px;
     padding: 20px;
     margin: 100px auto;
-    background-color: #191970;
+    background-color: #5DB9EE;
     position: absolute;
     left: -80%;
     border-radius: 25px;
@@ -298,7 +298,7 @@
     height: 270px;
     padding: 20px;
     margin: 100px auto;
-    background-color: #FFAC1C;
+    background-color: #5DB9EE;
     position: absolute;
     left: 22%; 
     border-radius: 25px;
