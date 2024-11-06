@@ -1,27 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-}
-@font-face{
-    font-family: myfont1;
-    src: url(./Fonts/Font\ 1.ttf);
-}
-@font-face{
-    font-family: myfont2;
-    src: url(./Fonts/Font\ 2.otf);
-}
-@font-face{
-    font-family: myfont3;
-    src: url(./Fonts/Font\ 3.ttf);
-}
-@font-face{
-    font-family: myfont4;
-    src: url(./Fonts/Font\ 4.ttf);
-}
-@font-face{
-    font-family: myfont5;
-    src: url(./Fonts/Font\ 5.ttf);
+    font-family: "Montserrat", serif;
 }
 .Portfolio-Container{
     min-height: 100vh;
@@ -38,7 +20,7 @@
     align-items: center;
     position: fixed;
     z-index: 9999;
-    background-color: #262525;
+    background-color: #1d1716;
 }
 .navlist li{
     list-style: none;
@@ -46,16 +28,15 @@
 .navlist li a{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1.3rem;
     color: #FFF;
     position: relative;
-    font-family: myfont3;
+    font-size: 17px;
 }
 .Left-Conatiner{
     height: 510vh;
     display: flex;
     align-items: center;
-    background: #262525 ;
+    background: #1d1716 ;
     width: 100%;
     padding-left: 3rem;
 }
@@ -65,7 +46,6 @@
     top: 1px;
     left: 7px;
     color: #3877FF;
-    font-family: myfont1;
 }
 .icons .fa-brands{
     color: #FFF;
@@ -89,7 +69,6 @@
 .content .intro{
     font-size: 2.5rem;
     color: #fff;
-    font-family: myfont3;
 }
 .content .intro span{
     color: #5DB9EE;
@@ -100,7 +79,6 @@
     max-width: 45rem;
     margin: 1.1rem 0 3rem;
     line-height: 3rem;
-    font-family: myfont5;
 }
 .icons .fa-brands:hover{
     cursor: pointer;
@@ -118,7 +96,7 @@
 
 }
 .circle:nth-child(1){
-    background: linear-gradient(90deg, transparent 50%, #262525 50%);
+    background: linear-gradient(90deg, transparent 50%, #1d1716 50%);
     width: 38rem;
 }
 .circle:nth-child(2){
@@ -132,6 +110,7 @@
     inset 0 0 1rem #FFF,
     0 0 1rem #3877FF,
     inset 0 0 1rem #3877FF;
+    margin-top: 20px;
 }
 .navlist li a::after, .navlist .active::after{
     content: "";
@@ -156,18 +135,16 @@
     position: absolute;
     top: 650px;
     left: 550px;
-    font-size: 43px;
+    font-size: 35px;
     color: #5DB9EE;
-    font-family: myfont5;
 }
 .About-Text{
-    font-size: 30px;
+    font-size: 23px;
     color: #FFF;
     position: absolute;
     right: 50%;
     top: 750px;
     margin-left: 50px;
-    font-family: myfont3;
 }
 .About-Text span{
     color: #5DB9EE;
@@ -176,7 +153,7 @@
     width: 400px;
     height: 500px;
     position: absolute;
-    top: 700px;
+    top: 750px;
     left: 45%;
     margin-left: 200px;
     background-size: 100%;
@@ -190,12 +167,11 @@
 .skills {
     width: 50%;
     margin-top: 5%;
-    font-size: 170%;
+    font-size: 150%;
     color: #FFF;
     position: absolute;
     top: 1250px;
-    left: 45%;
-    font-family: myfont5;
+    left: 550px;
 }
 .skills span {
     color: #3877FF;
@@ -209,8 +185,7 @@
     position: absolute;
     left: -80%;
     border-radius: 25px;
-    font-family: myfont3;
-    font-size: 30px;
+    font-size: 25px;
 }
 .box1 img{
     position: absolute;
@@ -248,6 +223,13 @@
     height: 35px;
     width: 35px;
     top: 105px;
+    left: 270px;
+}
+.verify7 img{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 153px;
     left: 270px;
 }
 .Tech-Skills{
@@ -293,6 +275,12 @@
     top: 107px;
     left: 315px;
 }
+.tech-stack7{
+    position: absolute;
+    font-size: 75%;
+    top: 155px;
+    left: 315px;
+}
 .box2 {
     width: 500px;
     height: 270px;
@@ -302,8 +290,7 @@
     position: absolute;
     left: 22%; 
     border-radius: 25px;
-    font-family: myfont3;
-    font-size: 30px;
+    font-size: 25px;
 }
 .soft-skills{
     font-size: 100%;
@@ -339,7 +326,7 @@
 }
 .soft-stack2-2{
     position: absolute;
-    margin-left: 147px;
+    margin-left: 165px;
     font-size: 75%;
     top: 57px;
 }
@@ -370,13 +357,12 @@
     top: 203px;
 }
 .project1_descript{
-    font-size: 30px;
+    font-size: 20px;
     color: #FFF;
     position: absolute;
     right: 50%;
     top: 2100px;
     margin-left: 50px;
-    font-family: myfont3;
 }
 .projects span{
     color: #5DB9EE;
@@ -385,35 +371,31 @@
     font-size: 30px;
     color: #FFF;
     position: absolute;
-    right: 86%;
+    left: 50px;
     top: 2050px;
-    font-family: myfont5;
     /* margin-left: 50px; */
 }
 .project-heading{
-    font-size: 43px;
+    font-size: 35px;
     color: #FFF;
     position: absolute;
-    right: 45%;
+    left: 550px;
     top: 1900px;
-    margin-left: 50px;
-    font-family: myfont5;
 }
 .projects a{
     color: #3877FF;
-    font-size: 30px;
+    font-size: 20px;
     position: absolute;
-    right: 72%;
-    top: 2315px;
-    font-family: myfont3;
+    right: 73%;
+    top: 2255px;
     /* margin-left: 50px; */
 }
 .Tic img{
-    width: 350px;
-    height: 400px;
+    width: 250px;
+    height: 300px;
     position: absolute;
-    top: 350%;
-    left: 45%;
+    top: 340%;
+    left: 50%;
     margin-left: 200px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -429,7 +411,6 @@
     position: absolute;
     left: 30%;
     top: 2550px;
-    font-family: myfont5;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -453,7 +434,6 @@
     font-weight: 500px;
     padding-left: 25px;
     border-radius: 50px;
-    font-family: myfont3;
     font-size: 18px;
 }
 .contact-input:hover{
@@ -473,5 +453,5 @@
     border-radius: 50px;
     background: linear-gradient(270deg, #3877FF,#5DB9EE);
     cursor: pointer;
-    font-family: myfont3;
 }
+
