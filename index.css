@@ -11,6 +11,9 @@
     display: flex;
     flex-direction: column;
 }
+html {
+    scroll-behavior: smooth;
+}
 .navlist{
     display: flex;
     gap: 3.5rem;
@@ -33,7 +36,7 @@
     font-size: 17px;
 }
 .Left-Conatiner{
-    height: 510vh;
+    height: 735vh;
     display: flex;
     align-items: center;
     background: #1d1716 ;
@@ -356,6 +359,10 @@
     font-size: 75%;
     top: 203px;
 }
+
+
+
+
 .project1_descript{
     font-size: 20px;
     color: #FFF;
@@ -364,7 +371,7 @@
     top: 2100px;
     margin-left: 50px;
 }
-.projects span{
+.projects1 span{
     color: #5DB9EE;
 }
 .project1{
@@ -377,12 +384,12 @@
 }
 .project-heading{
     font-size: 35px;
-    color: #FFF;
+    color: #5DB9EE;
     position: absolute;
     left: 550px;
     top: 1900px;
 }
-.projects a{
+.projects1 a{
     color: #3877FF;
     font-size: 20px;
     position: absolute;
@@ -405,12 +412,198 @@
     0 0 1rem #3877FF,
     inset 0 0 1rem #3877FF;
 }
+
+
+
+
+
+.project2_descript {
+    font-size: 20px;
+    color: #FFF;
+    position: absolute;
+    left: 43%; /* Changed from right to left */
+    top: 2500px;
+    margin-left: 50px;
+}
+
+.project2 {
+    font-size: 30px;
+    color: #FFF;
+    position: absolute;
+    right: 450px; /* Changed from left to right */
+    top: 2450px;
+    /* margin-left: 50px; */
+}
+
+.projects2 a {
+    color: #3877FF;
+    font-size: 20px;
+    position: absolute;
+    left: 47%; /* Changed from right to left */
+    top: 2755px;
+    /* margin-left: 50px; */
+}
+
+.SRM img {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 425%;
+    right: 63%; /* Changed from left to right */
+    margin-left: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: .1rem solid white;
+    box-shadow: 0 0 1rem #fff,
+    inset 0 0 1rem #FFF,
+    0 0 1rem #3877FF,
+    inset 0 0 1rem #3877FF;
+}
+
+
+
+
+
+.project3_descript{
+    font-size: 20px;
+    color: #FFF;
+    position: absolute;
+    right: 50%;
+    top: 2950px;
+    margin-left: 50px;
+}
+.projects3 span{
+    color: #5DB9EE;
+}
+.project3{
+    font-size: 30px;
+    color: #FFF;
+    position: absolute;
+    left: 50px;
+    top: 2900px;
+    /* margin-left: 50px; */
+}
+.project-heading{
+    font-size: 35px;
+    color: #5DB9EE;
+    position: absolute;
+    left: 550px;
+    top: 1900px;
+}
+.projects3 a{
+    color: #3877FF;
+    font-size: 20px;
+    position: absolute;
+    right: 73%;
+    top: 3200px;
+    /* margin-left: 50px; */
+}
+.URL img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 500%;
+    left: 45%;
+    margin-left: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: .1rem solid white;
+    box-shadow: 0 0 1rem #fff,
+    inset 0 0 1rem #FFF,
+    0 0 1rem #3877FF,
+    inset 0 0 1rem #3877FF;
+}
+
+
+.skill-heading{
+    font-size: 35px;
+    color: #5DB9EE;
+    position: absolute;
+    left: 550px;
+    top: 3300px;
+}
+
+
+
+
+.progress1 span{
+    color: #5DB9EE;
+}
+.pro1{
+    font-size: 30px;
+    color: #FFF;
+    position: absolute;
+    left: 190px;
+    top: 3450px;
+    /* margin-left: 50px; */
+}
+.progress1 a{
+    color: #3877FF;
+    font-size: 20px;
+    position: absolute;
+    right: 77%;
+    top: 3750px;
+    /* margin-left: 50px; */
+}
+.hacker img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 593%;
+    left: 7%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: .1rem solid white;
+    box-shadow: 0 0 1rem #fff,
+    inset 0 0 1rem #FFF,
+    0 0 1rem #3877FF,
+    inset 0 0 1rem #3877FF;
+}
+
+
+
+.progress2 span{
+    color: #5DB9EE;
+}
+.pro2{
+    font-size: 30px;
+    color: #FFF;
+    position: absolute;
+    left: 870px;
+    top: 3450px;
+    /* margin-left: 50px; */
+}
+.progress2 a{
+    color: #3877FF;
+    font-size: 20px;
+    position: absolute;
+    right: 26%;
+    top: 3750px;
+    /* margin-left: 50px; */
+}
+.leet img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 593%;
+    left: 60%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: .1rem solid white;
+    box-shadow: 0 0 1rem #fff,
+    inset 0 0 1rem #FFF,
+    0 0 1rem #3877FF,
+    inset 0 0 1rem #3877FF;
+}
+
+
+
 .contact{
     font-size: 170%;
     color: #3877FF;
     position: absolute;
     left: 30%;
-    top: 2550px;
+    top: 3900px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
